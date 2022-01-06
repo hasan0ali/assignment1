@@ -1,7 +1,7 @@
 body {
   font-family: "Domine", serif;
 }
-.orenge-color {
+.orange-color {
   color: orange;
 }
 section {
@@ -9,7 +9,62 @@ section {
 }
 .mission {
   width: 50%;
+  padding-left: 5%;
 }
 .mission img {
-  width: 100%;
+  width: 80%;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, yellow);
+  padding: 10px 30px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.more-buttone {
+  text-decoration: none;
+  background-image: radial-gradient(red, yellow);
+  padding: 10px 40px;
+  color: whitesmoke;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.journey {
+  text-align: center;
+}
+span {
+  color: orange;
+}
+#my-mission1 {
+  width: 50%;
+  padding: 10px 50px;
+  border-radius: 10px;
+  background-color: cyan;
+}
+#my-mission1 img {
+  width: 80%;
+}
+#my-mission2 {
+  width: 50%;
+  padding: 10px 50px;
+  border-radius: 10px;
+  background-color: yellowgreen;
+}
+#my-mission2 img {
+  width: 80%;
+}
+#my-mission3 {
+  width: 50%;
+  padding: 10px 50px;
+  border-radius: 10px;
+  background-color: salmon;
+}
+#my-mission3 img {
+  width: 80%;
+}
+footer {
+  text-align: center;
+  background-color: rgb(26, 17, 6);
+  color: white;
 }
