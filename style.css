@@ -64,6 +64,9 @@ span {
   width: 80%;
 }
 footer {
+  font-family: "Playball", cursive;
+}
+footer {
   text-align: center;
   background-color: rgb(26, 17, 6);
   color: white;
