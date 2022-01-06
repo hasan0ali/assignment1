@@ -1,0 +1,15 @@
+body {
+  font-family: "Domine", serif;
+}
+.orenge-color {
+  color: orange;
+}
+section {
+  display: flex;
+}
+.mission {
+  width: 50%;
+}
+.mission img {
+  width: 100%;
+}
