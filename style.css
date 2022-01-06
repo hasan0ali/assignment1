@@ -9,10 +9,29 @@ section {
 }
 .mission {
   width: 50%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-block-end: 20px;
   padding-left: 5%;
 }
 .mission img {
   width: 80%;
+}
+.background {
+  background-image: url(images/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+.background0 {
+  background-image: url(images/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: right;
+}
+.background1 {
+  background-image: url(images/shape-3.png);
+  background-repeat: no-repeat;
+  backface-visibility: visible;
 }
 .link-button {
   text-decoration: none;
@@ -36,34 +55,39 @@ section {
 span {
   color: orange;
 }
-#my-mission1 {
+.my-mission1 {
   width: 50%;
   padding: 10px 50px;
   border-radius: 10px;
   background-color: cyan;
 }
-#my-mission1 img {
+.box-style {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-block-end: 20px;
+}
+.my-mission1 img {
   width: 80%;
 }
-#my-mission2 {
+.my-mission2 {
   width: 50%;
   padding: 10px 50px;
   border-radius: 10px;
   background-color: yellowgreen;
 }
-#my-mission2 img {
+.my-mission2 img {
   width: 80%;
 }
-#my-mission3 {
+.my-mission3 {
   width: 50%;
   padding: 10px 50px;
   border-radius: 10px;
   background-color: salmon;
 }
-#my-mission3 img {
+.my-mission3 img {
   width: 80%;
 }
-footer {
+#footering {
   font-family: "Playball", cursive;
 }
 footer {
